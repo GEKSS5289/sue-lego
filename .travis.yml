@@ -4,7 +4,8 @@ node_js:
 deploy:
   provider: npm
   email: 496966859@qq.com
+  skip_cleanup: true
   api_key:
-    secure: 58407307-3cb4-49ec-92c9-1034cf214385
+    secure: dc6150b4-2f92-4c2c-bc78-34ae6c9c9cb7
   on:
     tags: true
