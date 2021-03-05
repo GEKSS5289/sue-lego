@@ -5,7 +5,6 @@ deploy:
   provider: npm
   email: 496966859@qq.com
   skip_cleanup: true
-  api_key:
-    secure: dc6150b4-2f92-4c2c-bc78-34ae6c9c9cb7
+  api_key: eb03ef17-2bf8-49ab-ace3-5dd70ffa1e2b
   on:
     tags: true
