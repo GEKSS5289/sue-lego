@@ -4,7 +4,7 @@ node_js:
 deploy:
   provider: npm
   email: 496966859@qq.com
-  api_key: 58407307-3cb4-49ec-92c9-1034cf214385
+  api_key:
+    secure: 58407307-3cb4-49ec-92c9-1034cf214385
   on:
     tags: true
-  
