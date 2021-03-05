@@ -1,3 +1,10 @@
 language: node_js
 node_js:
   - node
+deploy:
+  provider: npm
+  email: 496966859@qq.com
+  api_key: 58407307-3cb4-49ec-92c9-1034cf214385
+  on:
+    tags: true
+  
